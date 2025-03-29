@@ -1,0 +1,82 @@
+body { 
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container { 
+    width: 50%; 
+    margin: auto; 
+    text-align: center; 
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+input, button {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+.submit-button {
+    background-color: #37cf5a;
+    color: white;
+    width: 8rem;
+    border-radius: 17px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #2ea047;
+}
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+    background: white;
+}
+th, td { 
+    border: 1px solid black; 
+    padding: 8px; 
+    text-align: left; 
+}
+th {
+    background-color: #2679d1;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style for Edit Button */
+button.edit-btn {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Style for Delete Button */
+button.delete-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Button Hover Effects */
+button.edit-btn:hover {
+    background-color: darkgreen;
+}
+
+button.delete-btn:hover {
+    background-color: darkred;
+}
