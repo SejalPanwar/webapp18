@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Data Storage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Store Personal Data</h2>
+        <form id="dataForm">
+            <input type="text" id="sno" class="form-input" placeholder="Serial Number" required>
+            <input type="text" id="name" class="form-input" placeholder="Name" required>
+            <input type="text" id="pno" class="form-input" placeholder="P.N.O." required>
+            <input type="text" id="corr_address" class="form-input" placeholder="Correspondence Address" required>
+            <input type="text" id="perm_address" class="form-input" placeholder="Permanent Address" required>
+            <input type="text" id="mobile" class="form-input" placeholder="Mobile No." required>
+            <input type="text" id="co_number" class="form-input" placeholder="CO Number" required>
+            <button type="submit" class="submit-button">Save Data</button>
+        </form>
+    </div>
+
+    <h2>Search Data</h2>
+    <input type="text" id="search" placeholder="Search by Name..." onkeyup="searchData()">
+    
+    <h2>Stored Data</h2>
+    <table id="dataTable">
+        <tr>
+            <th>S.No</th><th>Name</th><th>P.N.O</th><th>Corr. Address</th><th>Perm. Address</th><th>Mobile</th><th>C.O</th><th>Actions</th>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
